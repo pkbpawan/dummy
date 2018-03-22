@@ -1,0 +1,23 @@
+{
+    "name": "pkbpawan/paytm",
+    "type": "composer-plugin",
+    "homepage": "https://github.com/pkbpawan/paytm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pawan Kumar",
+            "email": "pkb.pawan@gmail.com",
+            "homepage": "https://github.com/pkbpawan",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6",
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "pkbpawan\\Composer\\Paytm\\": "src"
+        }
+    }
+}
