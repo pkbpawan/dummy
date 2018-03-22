@@ -1,6 +1,6 @@
 <?php
 
-namespace pkbpawan\Composer\Paytm;
+namespace pkbpawan\paytm;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
